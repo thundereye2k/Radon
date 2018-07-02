@@ -50,7 +50,7 @@ Valid config options you can use:
 | Libraries | String List | Libraries used to compile the input |
 | Exempts | String List | Exempted classes, methods, or fields from obfuscation |
 | StringEncryption | String (SuperLight/Light/Normal/Heavy) | Type of string encryption to apply |
-| FlowObfuscation | String (Light/Normal) | Type of flow obfuscation to apply |
+| FlowObfuscation | String (Light/Normal/Heavy) | Type of flow obfuscation to apply |
 | InvokeDynamic | String (Light/Normal/Heavy) | Type of invokedynamic obfuscation to apply |
 | LocalVariableObfuscation | String (Obfuscate/Remove) | Type of local variable obfuscation to apply |
 | Crasher | Boolean | Determines if the decompiler crasher should be applied |
